@@ -1,0 +1,153 @@
+{
+  "type": "offline_owner_preview",
+  "lesson": "UCAN-L24",
+  "version": "v1.9.5",
+  "pages": 10,
+  "official_routing": false,
+  "assessment": {
+    "kind": "OWNER_REQUESTED_5_OF_5_MASTERY_CHECK_CANDIDATE_GOVERNANCE_PENDING",
+    "item_ids": [
+      "L24-Q01",
+      "L24-Q02",
+      "L24-Q03",
+      "L24-Q04",
+      "L24-Q05"
+    ],
+    "keys": [
+      "Б",
+      "В",
+      "А",
+      "Б",
+      "В"
+    ],
+    "q03_primary_lo": "LO24-05",
+    "q03_secondary_lo": "LO24-03",
+    "score_storage": "sessionStorage: version-specific verified 5/5 response only",
+    "completion_lock": true,
+    "question_count": 5,
+    "choice_feedback_count": 15,
+    "reflection_unlock": "only after verified 5 of 5; unlimited attempts",
+    "route_index": 8,
+    "reflection_route_index": 9
+  },
+  "source": {
+    "drive_id": "1qWIHuNXj8X9KL-5O2SKlOV47GSB9hJky",
+    "sha256": "bea7680eef7f71e7a721f6d038f00d6fd08aaa823536039032ff5ccf47fc9e69"
+  },
+  "components": [
+    "L24-A01",
+    "L24-A02",
+    "L24-A03",
+    "L24-A04"
+  ],
+  "files": [
+    "index.html",
+    "css/style.css",
+    "js/app.js",
+    "preview_manifest.json",
+    "README_PREVIEW.txt"
+  ],
+  "constraints": [
+    "No official routes",
+    "Internal annexes excluded",
+    "No learner-data transmission",
+    "Owner-requested 5/5 gate; Main Consultant governance reconciliation pending"
+  ],
+  "status": "OWNER_REVIEW_CANDIDATE",
+  "source_version": "v1.6",
+  "qa_status": "INTERNAL_REGRESSION_ONLY_INDEPENDENT_QA_PENDING",
+  "source_sha256": "a812229cfa570412a544773fdb36bf4b3843c358554907fa1cb4f431e2bd79f8",
+  "candidate_version": "v1.9.5",
+  "source_predecessor": "UCAN_Lesson_24_HTML_v1.9.4_Concepts_Clarity_OWNER_REVIEW_CANDIDATE.zip",
+  "verified_optional_resource_links": [
+    {
+      "url": "https://www.oecd.org/en/publications/2023/10/smart-city-data-governance_fc19e878.html",
+      "topic": "Smart city data governance, data challenges and public-service decisions",
+      "authority": "OECD",
+      "access_verified": "2026-11-21"
+    },
+    {
+      "url": "https://commission.europa.eu/strategy-and-policy/strategic-foresight_en",
+      "topic": "Strategic foresight and alternative plausible futures in policy",
+      "authority": "European Commission",
+      "access_verified": "2026-11-21"
+    }
+  ],
+  "release_status": "NOT AUTHORIZED; QG-004/SVS24/RC24/Class A/Owner review remain open",
+  "owner_review_changes": [
+    "Resource descriptions rephrased to \"Тут ви можете знайти\"",
+    "Five self-check items placed after section 7 practical decision",
+    "Reflection is final route 9 and unlocks after viewing all five explanations, not correct answers",
+    "Reflection organized with prior UCAN-L22 develop reference headings",
+    "2026-11-22: перенесено блок OECD/EC із сторінки 6 в кінець сторінки 7; EC What is strategic foresight? подано в одному ресурсі; без нової сторінки чи змін тесту.",
+    "2026-11-22: сторінку 3 «Поняття» упорядковано за чотирма підходами: дані/аналіз, Big Data, ШІ, Smart City; усунуто повторення визначень; порівняльну таблицю та приклад із двома школами збережено в кінці. Інші 9 сторінок, JS, CSS та тест не змінювалися.",
+    "2026-11-22: minor wording correction Big Data; removed duplicated Smart City sensor sentence; omitted redundant hypothetical-role legal disclaimer; confirmed existing EC Strategic foresight resource link on Page 7; no JS/CSS changes."
+  ],
+  "page_flow": [
+    "Початок",
+    "Ситуація",
+    "Поняття",
+    "Управлінський вибір",
+    "Кліматичний зв’язок",
+    "Дані та довіра",
+    "Сценарії 2050",
+    "Ваш наступний крок",
+    "Перевірте своє рішення",
+    "Підсумок і рефлексія"
+  ],
+  "changes_v1_7": {
+    "semantic_emoji_markers": 10,
+    "existing_decorative_emoji_wrapped": true,
+    "next_lesson_label": "Перейти до заняття 25",
+    "next_lesson_status": "NEXT LESSON DESTINATION — PENDING PUBLICATION",
+    "next_lesson_url": null,
+    "next_lesson_button_enabled": false,
+    "github_reference": "clusterceu-crypto/UCAN-Lesson23 develop index.html",
+    "lesson25_reference": "clusterceu-crypto/UCAN-Lesson25 develop: README-only, no index.html as inspected 2026-11-21",
+    "content_and_assessment": "unchanged",
+    "route_count": 10
+  },
+  "candidate_name": "UCAN_Lesson_24_HTML_v1.9.5_Editorial_Microclarifications_OWNER_REVIEW_CANDIDATE.zip",
+  "assessment_ux": "unified_submission_consolidated_feedback",
+  "next_lesson_href": "https://clusterceu-crypto.github.io/UCAN-Lesson25/",
+  "next_lesson_deployment": "not independently verified",
+  "assessment_session_recovery": "sessionStorage_v1.9_verified_answers_only",
+  "editorial_micro_correction": {
+    "scope": "Two occurrences of redundant external-site parenthetical removed; one plain-text reference to European Commission Strategic foresight changed to linked explanatory reader note",
+    "resource_url": "https://commission.europa.eu/strategy-and-policy/strategic-foresight_en",
+    "learner_content": "No other learner content, assessment or navigation logic changed",
+    "governance": "OWNER_REVIEW_CANDIDATE; no publication/assessment governance promotion"
+  },
+  "scenario_editorial_revision_v1_9_2": {
+    "scope": "Page 7, scenarios 1/2/3 learner wording clarified by Owner approval 2026-11-22",
+    "retained": "All 10 pages, four tables, five LO, five assessment items, 15 explanations, answer keys and v1.9 5/5 logic unchanged",
+    "note": "Scenario numbers 1/2/3 and decision options A/Б/В explicitly distinguished. No new external evidence or guaranteed 2050 predictions."
+  },
+  "resource_consolidation_v1_9_3": {
+    "owner_authorized": true,
+    "page_from": 6,
+    "page_to": 7,
+    "location": "after scenario cards and practical illustration, before page 7 navigation",
+    "source_urls_preserved": 2,
+    "duplicated_EC_reference_consolidated": true,
+    "new_page_added": false,
+    "no_assessment_changes": true,
+    "governance_status": "OWNER_REVIEW_CANDIDATE; independent QA pending"
+  },
+  "concepts_editorial_revision_v1_9_4": {
+    "approved_by_owner": true,
+    "scope": "Page 3 only, regrouping of existing course-source explanations; no new pedagogical facts",
+    "preserved": "Ten pages, four substantive tables, five learning outcomes, three 2050 scenarios, resource list, lesson 25 navigation, five questions/15 explanations and 5/5 gating",
+    "other_pages_unchanged": true,
+    "js_css_unchanged": true,
+    "governance": "OWNER_REVIEW_CANDIDATE; independent QA and 5/5 governance reconciliation pending"
+  },
+  "editorial_microclarifications_v1_9_5": {
+    "owner_requested": true,
+    "scope": "Page 3 Big Data wording, Page 3 Smart City redundancy, Page 6 Data and Trust optional caveat removal; Page 7 existing European Commission strategic foresight link independently confirmed and retained",
+    "prior_link_count": 1,
+    "source_id": "1QI2NpQPW1ySFEK1xSB41izTahuW2LcsC",
+    "unmodified": "All other HTML content, local assessment implementation, stylesheet, ten-page routing and resources",
+    "governance": "OWNER_REVIEW_CANDIDATE; full independent browser QA and Owner-requested 5/5 governance reconciliation pending"
+  }
+}
