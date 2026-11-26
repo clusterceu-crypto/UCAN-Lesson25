@@ -1,0 +1,2 @@
+/* Single global token owner. Source: UCAN Shared Runtime Architecture API v1.0 / ADR-SR-005. */
+:root{--content:1240px;--ucan-ui-content:1240px;--reading-width:820px;--bg:#f7faf8;--surface:#fff;--ink:#18352e;--muted:#415c52;--green:#145e53;--deep:#123d36;--line:#d0e0d8;--pale:#f0f7f3;--danger:#832c22;--focus:#ffc857;color-scheme:light}

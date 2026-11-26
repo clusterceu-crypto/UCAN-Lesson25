@@ -1,0 +1,63 @@
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 system-ui,"Arial",sans-serif;overflow-x:hidden}h1,h2,h3{line-height:1.3}a{color:var(--green)}button,textarea{font:inherit}button{cursor:pointer;min-height:44px}button:disabled{opacity:.62;cursor:not-allowed}:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.skip{position:absolute;top:-100px;left:1rem;z-index:50;background:white;padding:.7rem}.skip:focus{top:0}.shell{max-width:var(--content);margin:auto;padding:0 24px}.site-header{background:var(--deep);color:white;position:sticky;top:0;z-index:30}.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}.brand{font-weight:750;font-size:1.25rem}.brand small{font-size:.88rem;font-weight:500}.header-actions{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}.button{background:var(--green);color:white;border:2px solid var(--green);border-radius:9px;padding:.5rem .85rem}.button-outline{background:white;color:var(--deep)}.button-danger{background:#fff;color:var(--danger);border-color:var(--danger)}.route-band{background:#edf5f0;border-bottom:1px solid var(--line)}.route-nav{display:flex;gap:.4rem;overflow-x:auto;padding:12px 0}.route-nav button{flex:0 0 auto;white-space:normal;max-width:250px;font-size:.9rem;background:#fff;color:var(--deep);border:1px solid #a6beb3;border-radius:9px;padding:.5rem}.route-nav button[aria-current=page]{background:var(--green);color:#fff;font-weight:700}.progress-area{padding-top:12px;padding-bottom:8px}.progress-text{display:flex;justify-content:space-between;gap:1rem;font-size:.9rem}.track{height:11px;background:#cadfd4;border-radius:99px;overflow:hidden}.fill{background:var(--green);height:100%;width:20%;transition:width .15s}.lesson-shell{max-width:var(--reading-width);margin:0 auto;padding:20px 24px 110px;scroll-margin-top:115px}.lesson-shell h1{font-size:clamp(1.5rem,3vw,2.2rem)}.lesson-shell h2{margin:2rem 0 .7rem;color:var(--deep);font-size:1.4rem}.lesson-shell h3{font-size:1.15rem}.source-paragraph{margin:.7rem 0;overflow-wrap:anywhere}.source-heading{margin-top:1.3rem}.component{margin:1.4rem 0;padding:1rem 1.2rem;background:var(--surface);border:1px solid var(--line);border-radius:12px}.component h2:first-child{margin-top:.25rem}.component ul{padding-left:1.5rem}.prompts{background:var(--pale);padding:1rem 1.2rem;border-radius:10px}.prompts li{margin:.5rem 0}.editor-box{background:#f0f7f3;border:2px solid #a2c2af;border-radius:12px;padding:1rem;margin:1.5rem 0}.editor-box textarea{display:block;width:100%;min-height:300px;resize:vertical;border:2px solid #59766a;border-radius:9px;padding:1rem;background:#fff;color:#172f27}.editor-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.7rem 0}.status{min-height:1.7em;font-size:.94rem}.warning{padding:.9rem;border-left:5px solid #9f6d16;background:#fff5d6;border-radius:4px}.page-controls{display:flex;justify-content:space-between;gap:.5rem;align-items:center;margin-top:2rem}.disabled-route{font-size:.8rem;display:flex;flex-direction:column}.disabled-route button{font-size:.9rem}.resource-status{font-size:.85rem;color:#765519;background:#fff5d6;padding:.4rem .6rem;border-radius:6px}.small{font-size:.9rem}.hidden{display:none!important}dialog{border:1px solid var(--line);border-radius:12px;max-width:min(550px,95vw);padding:1.4rem}dialog::backdrop{background:rgba(6,31,23,.68)}.dialog-actions{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:flex-end}.qa-banner{background:#fff0ce;padding:12px 16px}.footer{border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:.85rem;padding:1.5rem}@media(max-width:680px){body{font-size:16px}.shell{padding-left:16px;padding-right:16px}.lesson-shell{padding:12px 16px 96px}.component{padding:.85rem}.route-nav button{font-size:.8rem;max-width:180px}.header-inner{align-items:flex-start}.editor-box textarea{min-height:280px}.page-controls{flex-wrap:wrap}.page-controls button{flex:1 1 120px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+/* Shared shell print boundary: UI controls excluded; content stays readable. */
+@media print{.skip,.site-header,.route-nav,.progress-area,.page-controls,.editor-actions,.status,.qa-banner,dialog,.disabled-route,.footer{display:none!important}body{background:white;color:black}.lesson-shell,.component{border:none;box-shadow:none;max-width:none;padding:0}#editor-host{border:none;padding:0}textarea{height:auto;overflow:visible;border:none}}
+
+/* L25 v1.3 CSS visual components; canonical width tokens remain owned in ucan-tokens.css. */
+.component{border:0;background:transparent;padding:0;margin:1rem 0 1.5rem}.component h2:first-child{margin-top:0}
+.lesson-shell h1{margin:.65rem 0 1rem}.lesson-shell h2{margin:1.3rem 0 .5rem}.lesson-shell h3{margin:.95rem 0 .4rem}
+.content-lead{font-size:1.05rem;line-height:1.55}.eyebrow{font-weight:700;letter-spacing:.035em;color:var(--green);font-size:.9rem}
+.visual-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:14px;margin:1rem 0}
+.visual-card{padding:1rem;border:1px solid #c6d8ce;border-radius:12px;background:#f8fbf9;overflow-wrap:anywhere}
+.visual-card h3,.visual-card h4{margin:0 0 .45rem;color:var(--deep)}.visual-card p{margin:.4rem 0 0}
+.visual-card dl{margin:0}.visual-card dt{font-weight:700;margin-top:.55rem}.visual-card dd{margin:0}
+.flow-diagram{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.65rem;padding:0;list-style:none;margin:1.1rem 0}
+.flow-diagram li{position:relative;padding:.7rem;background:#eaf3ee;border-radius:9px;min-width:0;overflow-wrap:anywhere}
+.flow-diagram li:not(:last-child):after{content:'→';position:absolute;right:-.56rem;top:35%;color:var(--green);font-weight:bold;z-index:2}
+.flow-diagram strong{display:block;color:var(--deep)}.flow-diagram span{display:block;font-size:.85rem;margin-top:.3rem}
+.expert-row{padding:1rem 0;border-bottom:1px solid var(--line)}.expert-row h3{margin:.1rem 0}.expert-row p{margin:.2rem 0}
+.thought{border-left:4px solid var(--green);background:#edf5f0;padding:.8rem 1rem;border-radius:0 8px 8px 0}
+.template-steps{padding:0;list-style:none;counter-reset:step}.template-steps li{padding:.65rem 0;border-bottom:1px solid var(--line)}
+.template-steps h3{margin:0}.worked-example{background:#f7faf8;border-left:4px solid #8cae9c;padding:1rem 1.1rem;border-radius:0 9px 9px 0}
+.resource-item{margin:1rem 0;padding:0 0 .75rem;border-bottom:1px solid var(--line)}.resource-item h3{margin:.2rem 0}.resource-item a{display:inline-block;margin:.35rem 0;text-decoration:underline;text-underline-offset:3px}
+.quiz-question{border:1px solid #c5d7cd;border-radius:10px;padding:1rem;margin:1rem 0}.quiz-question legend{font-weight:700;padding:0 .3rem;line-height:1.4}
+.quiz-options{display:grid;gap:.45rem;margin-top:.7rem}.quiz-option{display:flex;align-items:flex-start;gap:.5rem;padding:.55rem;border:1px solid #dce7e0;border-radius:7px;cursor:pointer}
+.quiz-option:has(input:checked){background:#e5f3e9;border-color:#569d72}.quiz-option input{margin-top:.35rem;flex-shrink:0}
+.quiz-feedback{margin-top:.7rem;font-size:.94rem;white-space:pre-line}.quiz-feedback:not(:empty){border-left:3px solid #729c85;padding:.5rem .65rem;background:#f1f6f2}
+.quiz-actions{display:flex;flex-wrap:wrap;gap:.65rem}.quiz-score{font-size:1.4rem;font-weight:750;color:var(--deep);margin:.8rem 0}
+.ai-review{padding:1rem 0;margin-top:1.2rem;border-top:1px solid var(--line)}.ai-actions{display:flex;flex-wrap:wrap;gap:.55rem;margin:.8rem 0}
+.ai-actions a{text-decoration:none;display:inline-flex;align-items:center}.ai-actions .button{font-size:.93rem}
+.ai-status{min-height:1.35rem;color:var(--muted);font-size:.91rem}
+.legacy-draft{background:#eef5f0;padding:.85rem;border-radius:9px;margin-top:.85rem}.legacy-draft button{margin:.4rem .3rem 0 0}
+.editor-box{background:#f6faf7;border:1px solid #c3d7cb;padding:1.2rem}.editor-box h3{margin-top:0}.editor-box textarea{min-height:260px}
+#save-concept{display:none!important}.editor-actions #download-pdf{order:0}.editor-actions #delete-concept{order:1}
+.next-route-box a{display:inline-flex;align-items:center;text-decoration:none;min-height:44px;white-space:normal}
+.button,.route-nav button{overflow-wrap:anywhere}.source-paragraph{overflow-wrap:anywhere}
+@media(max-width:720px){.flow-diagram{grid-template-columns:1fr}.flow-diagram li:not(:last-child):after{content:'↓';right:50%;top:calc(100% - 4px)}.visual-cards{grid-template-columns:1fr}.quiz-question{padding:.8rem}.ai-actions{flex-direction:column}.ai-actions>*{width:100%;justify-content:center}.page-controls>*{flex:1 1 145px}}
+@media print{.ai-review,.quiz-actions,.ai-actions,.legacy-draft,.quiz-feedback{display:none!important}}
+
+/* L25 v1.4 resource reading guidance; existing UCAN design tokens remain authoritative. */
+.resource-meta{font-size:.9rem;color:var(--muted)}.resource-reading{font-weight:600;color:var(--deep);line-height:1.55}.resource-item a{margin-right:1.2rem;line-height:1.65}
+
+/* L25 P06 secondary destructive text action, only when a draft exists. */
+.editor-actions #delete-concept{order:1;min-height:44px;background:transparent;color:var(--danger);border:0;padding:.45rem .15rem;text-decoration:underline;text-underline-offset:3px;font:inherit;box-shadow:none}
+.editor-actions #delete-concept:hover{text-decoration-thickness:2px}
+
+/* L25 v1.6 controlled visual rhythm / component hierarchy. */
+.lesson-shell .component{margin-block:1.1rem 2rem}.lesson-shell .source-paragraph{line-height:1.72;margin-block:.65rem 1rem}
+.lesson-shell h2{letter-spacing:-.012em;color:var(--deep);margin-top:1.65rem}.lesson-shell h3{color:var(--deep);margin-top:1.45rem}
+.visual-cards[data-visual="L25-V01"]{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.1rem}
+.visual-cards[data-visual="L25-V01"] .visual-card{border-top:4px solid var(--green);box-shadow:0 3px 12px #163c2910}
+.flow-diagram[data-visual="L25-V03"]{gap:1rem;margin:1.4rem 0 1.8rem}
+.flow-diagram[data-visual="L25-V03"] li{padding:1.05rem .8rem;background:#eef7f2;border:1px solid #c7ded1}
+.flow-diagram[data-visual="L25-V03"] strong{margin-bottom:.35rem}
+.expert-question{padding:.85rem 1rem;background:#e9f2f7;border-left:4px solid var(--deep);border-radius:0 9px 9px 0;margin-top:2rem!important}
+.expert-weak-label,.expert-strong-label,.expert-why-label{font-size:1rem;padding:.3rem .65rem;border-radius:6px;margin:1rem 0 .2rem!important}
+.expert-weak-label{background:#f6eceb;border-left:3px solid #ab746d}.expert-strong-label{background:#e7f5eb;border-left:3px solid var(--green)}.expert-why-label{background:#edf1f5;border-left:3px solid var(--deep)}
+.resource-item{background:#fff;border:1px solid #d3e0d9;border-radius:12px;padding:1rem 1.2rem;margin:1rem 0;box-shadow:0 2px 10px #173c2810}
+.resource-category{font-size:.9rem;font-weight:750;color:var(--green);margin:.2rem 0 .35rem}
+.ucan-practical-guide{background:#f1f8f4;border-left:4px solid var(--green)}
+.resource-actions{display:flex;gap:.65rem;flex-wrap:wrap;margin-top:1rem}
+.resource-actions a{margin:0;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;white-space:normal;text-align:center;min-height:44px}
+.resource-actions .resource-primary{background:var(--green);color:#fff}.resource-actions .resource-secondary{background:white;color:var(--deep);border:1px solid var(--green)}
+#lesson-content h1:focus,#lesson-content h2:focus{outline:none}#lesson-content h1:focus-visible,#lesson-content h2:focus-visible{outline:3px solid var(--focus);outline-offset:5px}
+@media(max-width:720px){.visual-cards[data-visual="L25-V01"]{grid-template-columns:1fr}.resource-actions{flex-direction:column}.resource-actions a{width:100%}.flow-diagram[data-visual="L25-V03"]{gap:1.1rem}}
